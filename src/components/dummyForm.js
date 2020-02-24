@@ -24,4 +24,4 @@ const DummyForm = ({ section }) => {
   );
 }
 
-export default DummyForm
+export default DummyForm;
