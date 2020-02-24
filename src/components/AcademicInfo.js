@@ -1,5 +1,5 @@
 import React from 'react';
-import DummyForm from './dummyForm';
+import DummyForm from './DummyForm';
 
 const AcademicInfo = (props) => {
 
@@ -8,7 +8,9 @@ const AcademicInfo = (props) => {
   return (
     <>
       <h1>Academic Info</h1>
-      <DummyForm />
+      <DummyForm 
+        section={"Academic Info"}
+      />
       <p className="button-section">
         <button onClick={previousStep}>Previous Step</button>
         <button onClick={nextStep}>Final Step</button>

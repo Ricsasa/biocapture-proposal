@@ -1,5 +1,5 @@
 import React from 'react';
-import DummyForm from './dummyForm';
+import DummyForm from './DummyForm';
 
 const ConsultantInfo = (props) => {
 
@@ -8,7 +8,9 @@ const ConsultantInfo = (props) => {
   return (
     <>
       <h1>Consultant Info</h1>
-      <DummyForm />
+      <DummyForm 
+        section={"Consultant Info"}
+      />
       <p className="button-section">
         <button onClick={nextStep}>Next Step</button>
       </p>

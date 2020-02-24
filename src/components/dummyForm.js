@@ -1,22 +1,22 @@
 import React from 'react';
 
-const DummyForm = () => {
+const DummyForm = ({ section }) => {
   return (
     <form>
       <p>
-        <label>Field A</label>
+        <label>{section} Field A</label>
         <input type="text"></input>
       </p>
       <p>
-        <label>Field B</label>
+        <label>{section} Field B</label>
         <input type="text"></input>
       </p>
       <p>
-        <label>Field C</label>
+        <label>{section} Field C</label>
         <input type="text"></input>
       </p>
       <p>
-        <label>Field D</label>
+        <label>{section} Field D</label>
         <input type="text"></input>
       </p>
 

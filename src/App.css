@@ -28,3 +28,26 @@ main {
 .button-section {
   padding: 20px;
 }
+
+h4 > span{
+  font-size: small;
+  font-weight: lighter;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-div {
+  font-weight: bolder;
+  margin: 5px 20px;
+}
